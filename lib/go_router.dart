@@ -1,7 +1,6 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:viaje_easy/home_screen.dart';
-
 import 'details_screen.dart';
 
 final GoRouter _router = GoRouter(

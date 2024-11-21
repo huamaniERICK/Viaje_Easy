@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:viaje_easy/go_router.dart';
+import 'package:go_router/go_router.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Text('hola mundo!'),
         ),
       ),
     );
