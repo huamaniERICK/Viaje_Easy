@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:viaje_easy/go_router.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,5 +17,14 @@ class MainApp extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+class Myscreen extends StatelessWidget {
+  const Myscreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }
