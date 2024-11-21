@@ -1,31 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:viaje_easy/go_router.dart';
-import 'package:go_router/go_router.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MyAPP extends StatelessWidget {
+  const MyAPP({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('hola mundo!'),
-        ),
-      ),
+    return MaterialApp.router(
+      routerConfig: router,
     );
-  }
-}
-
-class Myscreen extends StatelessWidget {
-  const Myscreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
   }
 }
